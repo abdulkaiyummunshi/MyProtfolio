@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Github, ExternalLink } from 'lucide-react';
 import Laundry from '../image/project/laundre.png'
+import Mibitcoin from '../image/project/mibitcoin.jpeg'
 
 const Projects = () => {
   const [filter, setFilter] = useState('all');
@@ -45,6 +46,16 @@ const Projects = () => {
       techStack: ['HTML', 'CSS', 'SCSS', 'JavaScript', 'jQuery', 'BootStrap', "Gsap"],
       liveUrl: 'https://abdulkaiyummunshi.github.io/avaAcademy/',
       githubUrl: 'https://github.com/abdulkaiyummunshi/avaAcademy',
+      category: 'Frontend',
+    },
+    {
+      id: 5,
+      title: 'MiBitcoin Admin Template',
+      description: 'MiBitcoin Admin Dashboard',
+      image: Mibitcoin,
+      techStack: ['React.js', 'Tailwindcss', 'JavaScript', "Gsap"],
+      liveUrl: 'https://mi-bitcoin-case-admin-react.vercel.app/',
+      githubUrl: 'https://mi-bitcoin-case-admin-react.vercel.app/',
       category: 'Frontend',
     },
   ];
