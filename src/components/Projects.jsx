@@ -54,8 +54,8 @@ const Projects = () => {
       description: 'MiBitcoin Admin Dashboard',
       image: Mibitcoin,
       techStack: ['React.js', 'Tailwindcss', 'JavaScript', "Gsap"],
-      liveUrl: 'https://mi-bitcoin-case-admin-react.vercel.app/',
-      githubUrl: 'https://mi-bitcoin-case-admin-react.vercel.app/',
+      liveUrl: 'https://mi-bitcoin-admin.vercel.app/',
+      githubUrl: 'https://github.com/abdulkaiyummunshi/MiBitcoinAdmin',
       category: 'Frontend',
     },
   ];
