@@ -58,6 +58,16 @@ const Projects = () => {
       githubUrl: 'https://github.com/abdulkaiyummunshi/MiBitcoinAdmin',
       category: 'Frontend',
     },
+     {
+      id: 2,
+      title: 'MiBitcoinCasa',
+      description: 'A platform where property meets Bitcoin. Owners who accept it. People who live on it. Direct and simple.',
+      image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop',
+      techStack: ['React.js', 'SCSS', 'JavaScript', 'Tailwindcss', "Gsap"],
+      liveUrl: 'https://mi-bitcoin-case-react.vercel.app/',
+      githubUrl: 'https://github.com/abdulkaiyummunshi/MiBitcoinCaseReact',
+      category: 'frontend',
+    },
   ];
 
   const categories = [
